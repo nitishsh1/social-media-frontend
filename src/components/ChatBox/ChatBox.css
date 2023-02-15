@@ -1,0 +1,58 @@
+.ChatBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgb(232, 217, 217);
+    border-radius: 15px;
+    padding:1rem;
+}
+
+.follower{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+
+.followerImg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.ChatContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow-y: scroll;
+    height: 60vh;
+
+}
+
+.TypeMessage{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  
+}
+
+.TypeMessage>input{
+    outline: none;
+    border: 1px solid var(--hrColor);
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    width: 60%;
+}

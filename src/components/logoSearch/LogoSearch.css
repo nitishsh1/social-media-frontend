@@ -1,0 +1,36 @@
+.logoSearch{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Search{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.Search>input{
+    outline: none;
+    border: 1px solid var(--hrColor);
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+}
+
+.s-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--buttonBg);
+    color: #f6eeee;
+    border-radius: 0.5rem;
+    padding: 4px;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.s-icon:hover{
+    cursor: pointer;
+}
+
